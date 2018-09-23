@@ -1,0 +1,133 @@
+{
+  "prod": {
+    "IREN": {
+      "Welcome": [
+        "Tutte le campagne"
+      ]
+    },
+    "AXA": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "MPS v1"
+      ]
+    },
+    "GDFSuez": {
+      "Unbundling": [
+        "Tutte le campagne"
+      ]
+    },
+    "POSTEL": {
+      "pvideoUNHCR": [
+        "Tutte le campagne",
+        "UNHCR_ITA",
+        "UNHCR_EST"
+      ]
+    },
+    "UNIMORE": {
+      "InteractiveVideo": [
+        "Tutte le campagne"
+      ]
+    },
+    "SORGENIA": {
+      "Fatture": [
+        "Tutte le campagne",
+        "sorgeniapve"
+      ]
+    },
+    "ClubFamilyHotel": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "FamilyHotel"
+      ]
+    },
+    "MUNICIPIA": {
+      "InteractiveVideoMilano": [
+        "Tutte le campagne",
+        "tari_Milano"
+      ]
+    },
+    "COMUNE MILANO": {
+      "InteractiveVideoCIE": [
+        "Tutte le campagne"
+      ]
+    },
+    "ROMAMOBILITA": {
+      "RinnovoPermessoZTL": [
+        "Tutte le campagne"
+      ]
+    },
+    "ORACLE": {
+      "HRExperienceEmployee": [
+        "Tutte le campagne"
+      ]
+    }
+  },
+  "test": {
+    "IREN": {
+      "Welcome": [
+        "Tutte le campagne",
+        "IrenWelcome"
+      ]
+    },
+    "AXA": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "MPS v1"
+      ]
+    },
+    "GDFSuez": {
+      "Unbundling": [
+        "Tutte le campagne"
+      ]
+    },
+    "POSTEL": {
+      "pvideoUNHCR": [
+        "Tutte le campagne",
+        "UNHCR_ITA",
+        "UNHCR_EST",
+        "UNHCR"
+      ]
+    },
+    "UNIMORE": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "UNMORE_V1"
+      ]
+    },
+    "SORGENIA": {
+      "Fatture": [
+        "Tutte le campagne",
+        "sorgeniapve"
+      ]
+    },
+    "ClubFamilyHotel": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "FamilyHotel"
+      ]
+    },
+    "MUNICIPIA": {
+      "InteractiveVideoMilano": [
+        "Tutte le campagne",
+        "tari_Milano"
+      ]
+    },
+    "COMUNE MILANO": {
+      "InteractiveVideoCIE": [
+        "Tutte le campagne"
+      ]
+    },
+    "ROMAMOBILITA": {
+      "RinnovoPermessoZTL": [
+        "Tutte le campagne",
+        "RomaMobiZTL"
+      ]
+    },
+    "ORACLE": {
+      "HRExperienceEmployee": [
+        "Tutte le campagne",
+        "HRHD_V1"
+      ]
+    }
+  }
+}

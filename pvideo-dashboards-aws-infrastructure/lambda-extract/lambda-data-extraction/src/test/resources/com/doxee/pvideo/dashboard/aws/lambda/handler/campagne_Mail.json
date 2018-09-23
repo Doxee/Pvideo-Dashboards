@@ -1,0 +1,28 @@
+{
+  "prod": {
+    "AXA": {
+      "InteractiveVideo": [
+        "Tutte le campagne"
+      ],
+      "fake": [
+        "ALL"
+      ]
+    },
+    "ORACLE": {
+      "HR Help Desk": [
+        "Tutte le campagne"
+      ]
+    }
+  },
+  "test": {
+    "AXA": {
+      "InteractiveVideo": [
+        "Tutte le campagne",
+        "MPS v1"
+      ],
+      "fake": [
+        "ALL"
+      ]
+    }
+  }
+}

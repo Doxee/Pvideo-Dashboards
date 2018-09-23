@@ -1,0 +1,16 @@
+// CUSTOM BOOTSTRAP OVERRIDES
+$material-color-blue-100:         #2BC2FD; //#bbdefb
+
+$material-color-blue-500:         #177DFB; //#2196f3
+
+$material-color-blue-700:         #0d47a1; //#1976d2
+
+$primary: (
+        color: $material-color-blue-500,
+        dark:  $material-color-blue-700,
+        light: $material-color-blue-100
+);
+
+.nav-pills .nav-link.active {
+  color: $material-color-blue-500!important;
+}

@@ -1,0 +1,271 @@
+<!-- TEMPLATE CONTAINER -->
+<section class="template--no-emails">
+    <!-- OVERVIEW -->
+    <section id="overview" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-lg-3 ca-card ca-card-variant">
+                <div class="card">
+                    <div class="card-block h-100 overview-card">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="title-big">Panoramica</h5>
+                            </div>
+                        </div>
+                        <div class="row h-100 align-items-center">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 data-toggle="tooltip" data-placement="top" title="{{email.purlProduced.tooltip}}" class="d-inline">{{email.purlProduced.number}}</h2>
+                                        <p>{{email.purlProduced.label}}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 data-toggle="tooltip" data-placement="top" title="{{video.viewsUnique.tooltip}}" class="d-inline">{{video.viewsUnique.number}}</h2><span class="metric-percentage"> ({{video.viewsRate.number}}%)</span>
+                                        <p>{{video.viewsUnique.label}}</p>
+                                    </div>
+                                    <div class="col">
+                                        <h2 data-toggle="tooltip" data-placement="top" title="{{video.viewsUser.tooltip}}" class="d-inline">{{video.viewsUser.number}}</h2>
+                                        <p>{{video.viewsUser.label}}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 data-toggle="tooltip" data-placement="top" title="{{video.conversions.tooltip}}" class="d-inline">{{video.conversions.number}}</h2><span class="metric-percentage"> ({{video.conversionRate.number}}%)</span>
+                                        <p>{{video.conversions.label}}</p>
+                                    </div>
+                                    <div class="col">
+                                        <h2 data-toggle="tooltip" data-placement="top" title="{{video.interactions.tooltip}}" class="d-inline">{{video.interactions.number}}</h2>
+                                        <!--<span class="metric-percentage"> ({{video.interactionRate.number}}%)</span>-->
+                                        <p>{{video.interactions.label}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-9 ca-card">
+                <div class="card">
+                    <div class="card-block h-100" id="first-day-container" style="max-height: 500px;">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="title-big">Prime <span id="first-day-hours">24</span> ore</h5>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper h-100 w-100">
+                            <canvas id="first-day" width="3" height="1"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EOF OVERVIEW -->
+    <!-- SINGLE METRIC BOXES -->
+    <section id="single-metric-boxes" class="container-fluid">
+        <div class="row">
+            <div class="col ca-card single-metric-box">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5 data-toggle="tooltip" data-placement="top" title="Numero di utenti che hanno clicckato sul tasto play almeno una volta / video prodotti">Video visualizzati</h5></div>
+                            <div class="col-3 text-right">
+                                <h5>{{video.viewsRate.number}}%</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <canvas id="views-rate" width="8" height="1"></canvas>
+                            </div>
+                        </div>
+                        <div class="row pb-2">
+                            <div class="col d-flex justify-content-between">
+                                <span class="d-inline-flex" data-toggle="tooltip" data-placement="top" title="{{email.purlProduced.tooltip}}">{{email.purlProduced.label}}</span>
+                                <span class="d-inline-flex">{{email.purlProduced.number}}</span>
+                            </div>
+                        </div>
+                        <div class="db-separator"></div>
+                        <div class="row pt-2">
+                            <div class="col d-flex justify-content-between">
+                                <span class="d-inline-flex" data-toggle="tooltip" data-placement="top" title="{{video.viewsUnique.tooltip}}">{{video.viewsUnique.label}}</span>
+                                <span class="d-inline-flex">{{video.viewsUnique.number}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ca-card single-metric-box">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5 data-toggle="tooltip" data-placement="top" title="{{video.conversionRate.tooltip}}">{{video.conversionRate.label}}</h5></div>
+                            <div class="col-3 text-right">
+                                <h5>{{video.conversionRate.number}}%</h5></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <canvas id="conversion-rate" width="8" height="1"></canvas>
+                            </div>
+                        </div>
+                        <div class="row pb-2">
+                            <div class="col d-flex justify-content-between">
+                                <span class="d-inline-flex" data-toggle="tooltip" data-placement="top" title="{{video.viewsUnique.tooltip}}">{{video.viewsUnique.label}}</span>
+                                <span class="d-inline-flex">{{video.viewsUnique.number}}</span>
+                            </div>
+                        </div>
+                        <div class="db-separator"></div>
+                        <div class="row pt-2">
+                            <div class="col d-flex justify-content-between">
+                                <span class="d-inline-flex" data-toggle="tooltip" data-placement="top" title="{{video.conversions.tooltip}}">{{video.conversions.label}}</span>
+                                <span class="d-inline-flex">{{video.conversions.number}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EOF SINGLE METRIC BOXES -->
+    <!-- INTERACTIONS AND CONVERSIONS TABLES -->
+    <section id="cta-tables" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 ca-card">
+                <div class="card">
+                    <div class="card-block p-0 table-responsive">
+                        <table class="table table-hover table-striped mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <h5>Conversione</h5></th>
+                                    <th scope="col" class="text-right">
+                                        <h5>Utenti</h5></th>
+                                    <th scope="col" class="text-right">
+                                        <h5>Frequenza</h5></th>
+                                </tr>
+                            </thead>
+                            <tbody id="conversions-table">
+                                {{#each conversions}} {{#each this}}
+                                <tr>
+                                    {{#each this}}
+                                    <th class="table-content-rows">{{this}}<span class="percent-symbol">%</span></th>
+                                    {{/each}}
+                                </tr>
+                                {{/each}} {{/each}}
+                                <tr>
+                                    <th>
+                                        <h5>Totale</h5></th>
+                                    <th class="text-right">{{video.conversions.number}}</th>
+                                    <th class="text-right">{{video.conversionRate.number}}%</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 ca-card">
+                <div class="card">
+                    <div class="card-block p-0 table-responsive">
+                        <table class="table table-hover table-striped mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <h5>Interazione</h5></th>
+                                    <th scope="col" class="text-right">
+                                        <h5>Utenti</h5></th>
+                                    <th scope="col" class="text-right">
+                                        <h5>Frequenza</h5></th>
+                                </tr>
+                            </thead>
+                            <tbody id="interactions-table">
+                                {{#each interactions}} {{#each this}}
+                                <tr>
+                                    {{#each this}}
+                                    <th class="table-content-rows">{{this}}<span class="percent-symbol">%</span></th>
+                                    {{/each}}
+                                </tr>
+                                {{/each}} {{/each}}
+                                <tr>
+                                    <th>
+                                        <h5>Totale</h5></th>
+                                    <th class="text-right">{{video.interactions.number}}</th>
+                                    <th class="text-right">{{video.interactionRate.number}}%</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- INTERACTIONS AND CONVERSIONS TABLES -->
+    <!-- PIE AND ENGAGEMENT CHARTS -->
+    <section id="pie-engagement" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4 ca-card">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Coinvolgimento</h5>
+                            </div>
+                        </div>
+                        <canvas id="engagement-chart" width="5" height="3"></canvas>
+                        <div class="row">
+                            <div class="col text-center">
+                                <p>Numero di utenti per percentuale di avanzamento video</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 ca-card">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Visualizzazioni per Sistema Operativo</h5>
+                            </div>
+                        </div>
+                        <canvas id="operatingsystem-chart" width="5" height="3"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 ca-card">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Visualizzazioni per Dispositivo</h5>
+                            </div>
+                        </div>
+                        <canvas id="devicetype-chart" width="5" height="3"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EOF AND ENGAGEMENT CHARTS -->
+    <h1>{{numberTest}}</h1>
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+        <div class="row justify-content-around align-items-end">
+            <div class="col">
+                <span>©2018 Doxee S.p.A. C.F. - P.IVA: IT02714390362. All Rights Reserved.</span></br>
+                <span><a href="https://www.doxee.com/privacy-policy/">Privacy Policy</a> | <a href="https://www.doxee.com/terms-of-use/">Terms of use</a></span>
+            </div>
+            <div class="col text-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7743.6 2046.7" class="doxee-logo">
+                    <polygon points="4246.9 1301.5 4828 2002.3 4398.9 2001.8 4035.6 1551.1 3679.5 2001.8 3221.9 2001.8 3817.1 1287.2 3246.9 605.4 3613.9 605.7 3993.5 1067.7 4366.2 605.4 4826.2 605.4 " />
+                    <path d="M2543.9 560.4c-575.5 0-779.9 399.7-779.9 741.7 0 549.2 402.8 744.6 779.9 744.6 376.8 0 779.5-195.4 779.5-744.6C3323.4 960.2 3119.3 560.4 2543.9 560.4M2543.9 1730.5c-262.6 0-413.2-158-413.2-433.2 0-379.4 289-420.5 413.2-420.5 258.5 0 413.1 157.4 413.1 420.5C2957 1572.5 2806.4 1730.5 2543.9 1730.5" />
+                    <path d="M1232.7 557.4H839.9c-18.8 0-38.4 0.9-61.3 3C203.8 560.9 0 960.2 0 1302.4c0 549 402.6 744.4 779.7 744.4 376.7 0 779.6-195.4 779.6-744.4l-0.2-14v-6.4l0.2-5.4V0h-326.5V557.4zM779.7 876.8l412.2 0.5v365.2l-0.2 26.9c0 13.8 1 18.3 1 27.9 0 88.2-16.1 165.8-47.8 231 -64.8 132.1-191.1 202.1-365.1 202.1 -262.5 0-413.1-158-413.1-433.2C366.6 917.9 655.5 876.8 779.7 876.8" />
+                    <path d="M7743.6 1390c0-529.9-275.2-824.4-774.6-829.5 -276 0-472.4 99.8-598.3 246.4 80.1 127.3 128.6 286.2 142.7 475.8l0.5-0.1c0 0 6.6 57.9 4.2 137.4v6.4h-0.2c-3.3 86.4-17.4 195.5-62.1 285.5 -15.8 33.3-37.2 70.7-64.8 108.6 138.9 144.2 345.4 226.3 600.3 226.3 514.4 0 701.7-346.9 726.5-468.6l6.4-30.7h-388.8l-6.8 15.5c-36.1 84.3-148.7 182.6-346.3 182.6 -233.8-9.1-373.4-120-414.5-330h1175.7M6580.8 1124.2c53.7-176.4 178.3-262.3 380.4-262.3 219.5 0 345.7 83.6 393.8 262.3H6580.8z" />
+                    <path d="M5523.7 561.2c-532 0-769.8 370.4-769.8 737.2 0 452.3 310.8 744.6 792.4 744.6 513.2 0 699.5-345.6 724.1-466.5l5.1-25.2h-381l-5.4 12.6c-36.8 85.8-151.5 186-352.1 186 -239.1-9.4-380.6-123.8-420.8-340.2h1179.7v-20.9C6295.9 860.1 6021.7 566.3 5523.7 561.2M5128.8 1126.6c53-180.4 183.2-272.1 387.3-272.1 225.1 0 353.2 86.6 400.9 272.1H5128.8z" />
+                </svg>
+            </div>
+        </div>
+    </footer>
+    <!-- EOF FOOTER -->
+</section>
+<!-- EOF TEMPLATE CONTAINER -->

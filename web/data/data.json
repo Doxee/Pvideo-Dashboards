@@ -1,0 +1,63 @@
+{
+  "campaignInfo" : {
+    "client" : "Doxee",
+    "procedure" : "Paas Validation",
+    "applicazione" : "Pvideo Validation",
+    "environment" : "batch-test",
+    "version" : "undefined",
+    "lastUpdate" : "2018-03-05 22:02:21",
+    "versions" : [ [ "VERSION01", "" ], [ "all", "" ], [ "undefined", "" ] ]
+  },
+
+  "email": {
+    "openRate": 83,
+    "delivered": 40000,
+    "bounces": 10000,
+    "bounceRate": 5,
+    "clicks": 800,
+    "clickRate": 53,
+    "sent": 50000,
+    "opened": 3500
+  },
+
+  "video": {
+    "viewsRate": 64,
+    "views": 800,
+    "conversionRate": 3,
+    "viewsUnique": 700,
+    "viewsUser": 1.2,
+    "interactions": 50,
+    "conversions": 10
+  },
+
+  "conversions": [
+    ["Conversion event name 1", "58", "13"],
+    ["Conversion event name 2", "58", "13"]
+  ],
+
+  "interactions": [
+    ["Conversion event name 1", "58", "13"],
+    ["Conversion event name 2", "58", "13"]
+  ],
+
+  "deviceType" : {
+    "mobile" : 1,
+    "desktop" : 3,
+    "tablet" : 1
+  },
+
+  "operatingSystem":{
+    "data": [60, 20, 10, 10],
+    "labels": ["Android", "iOS", "Windows", "MacOS"]
+  },
+
+  "engagement": {
+    "data": [750, 740, 700, 680, 652, 642, 640, 635, 400, 380]
+  },
+
+  "firstDay": {
+    "opened": [[30, 500, 1200, 800, 300, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0],[30, 500, 1200, 800, 300, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0],[30, 500, 1200, 800, 300, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0]],
+    "views": [[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0],[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0],[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0]],
+    "conversions": [[0, 2, 5, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 2, 5, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 2, 5, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "campaignTitle": "Poste vita Analytics", //procedura
+  "clientName": "Nome Cliente",
+
+  "version" : "versione 3",
+  "versionDate" : "data",
+  "lastUpdate" : "data",
+
+  "versions": [
+    ["tutte", "data"], //Commodity - Data Versione 1
+    ["versione 3", "data"], //Commodity - Data Versione 1
+    ["versione 4", "data"]
+  ],
+
+  "email": {
+    "sent": 50000, // email spedite
+    "opened": 3500, // mail aperte
+    "openRate": 83, // spedite/aperte
+    "delivered": 40000, // spedite - bounce
+    "bounces": 10000, // mail ko
+    "bounceRate": 5.3, // mail ko / mail spedite
+    "clicks": 800, // click purl nella mail univoci
+    "clickRate": 53 //click purl / email aperta
+  },
+
+  "video": {
+    "viewsUnique": 700, // numero diclick su play unici
+    "viewsUser": 1.2, // numero visualizzazione medio per utente view totali/ view uniche
+    "interactions": 50, // numero di click sulle int prefix
+    "conversions": 10, //numero di click univoci sulle conversioni con prefix
+    "conversionRate": 3, // conversioni / video unique views
+    "viewsRate": 64, // click su play univoci / mail consegnate
+    "views": 800 // click sul play totali
+  },
+
+  "firstDay": { // primo array percentuali Secondo array numeriche Terzo totali
+    "opened": [[50, 200, 220, 100, 52, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0], [50, 200, 220, 100, 52, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0],[50, 200, 220, 100, 52, 50, 10, 2, 1, 15, 5, 12, 8, 2, 10, 1, 0, 1, 0, 2, 45, 1, 0, 0]],
+    "views": [[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0],[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0],[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0]],
+    "conversions": [[0, 2, 5, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 2, 5, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],[45, 150, 200, 50, 10, 5, 0, 0, 0, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 0, 0]]
+  },
+
+  "conversions": [
+    ["Conversion event name 1", "58", "5000",  "13"], // titolo conversione, numero di eventi unici, %rispetto eventi totali= eventi unici / eventi totali
+    ["Conversion event name 3",  "60", "1000",  "10"],
+    ["Interaction event name 5",  "58",  "5000","13"]
+  ],
+
+  "interactions": [
+    ["Interaction event name 1",  "58", "5000", "13"],
+    ["Interaction event name 2",  "58",  "5000","13"]
+  ],
+
+  "deviceType":{
+    "mobile": 60,
+    "desktop": 34,
+    "tablet": 10
+  },
+
+  "operatingSystem":{
+    "data": [60, 20, 10, 10],
+    "label": ["Android", "iOS", "Windows", "MacOS"]
+  },
+
+  "engagement": {
+    "data": [750, 740, 730, 720, 710, 700, 690, 780, 770, 760] // numero di utenti per % di avanzamento
+  }
+}

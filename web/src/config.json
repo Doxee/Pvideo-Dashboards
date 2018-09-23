@@ -1,0 +1,7 @@
+{
+  "IdentityPoolId": "{{IdentityPoolId}}",
+  "Region": "{{aws_applications.pvideo_dashboards.region}}",
+  "ClientId" : "{{ClientId}}",
+  "UserPoolId": "{{UserPoolId}}",
+  "apiUrl": "https://{{aws_applications.pvideo_dashboards.api_cname}}/"
+}

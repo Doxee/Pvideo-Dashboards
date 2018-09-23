@@ -1,0 +1,43 @@
+{
+  "prod": {
+    "AXA": {
+      "InteractiveVideo": {
+        "campaigns": [
+          "Tutte le campagne"
+        ],
+        "template": "TemplateNoEmails"
+      },
+      "fake": {
+        "campaigns": [
+          "ALL"
+        ],
+        "template": "default"
+      }
+    },
+    "ORACLE": {
+      "HR Help Desk": {
+        "campaigns": [
+          "Tutte le campagne"
+        ],
+        "template": "default"
+      }
+    }
+  },
+  "test": {
+    "AXA": {
+      "InteractiveVideo": {
+        "campaigns": [
+          "Tutte le campagne",
+          "MPS v1"
+        ],
+        "template": "TemplateNoEmails"
+      },
+      "fake": {
+        "campaigns": [
+          "ALL"
+        ],
+        "template": "default"
+      }
+    }
+  }
+}

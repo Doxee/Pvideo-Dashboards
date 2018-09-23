@@ -1,0 +1,50 @@
+{
+  "campaignTitle" : "",
+  "clientName" : "MUNICIPIA",
+  "procedureName" : "InteractiveVideoMilano",
+  "scope" : "PRODUCTION",
+  "version" : "tari_Milano",
+  "lastUpdate" : "2018-06-12 19:01:49",
+  "versions" : null,
+  "email" : {
+    "sent" : 0,
+    "opened" : 0,
+    "openRate" : 0.0,
+    "delivered" : 0,
+    "bounces" : 0,
+    "bounceRate" : 0.0,
+    "clicks" : 18,
+    "clickRate" : 0.0,
+    "purlProduced": 0
+  },
+  "video" : {
+    "viewsUnique" : 21,
+    "viewsUser" : 1.81,
+    "interactions" : 0,
+    "conversions" : 11,
+    "conversionRate" : 52.0,
+    "interactionRate" : 0.0,
+    "viewsRate" : 0.0,
+    "views" : 38
+  },
+  "firstDay" : {
+    "opened" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "views" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "conversions" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "conversions" : [ [ "PagaOnline open Pago Pa", "2", "10" ], [ "AggiornaImmobili open Aggiorna Immobili", "9", "43" ] ],
+  "interactions" : [ ],
+  "deviceType" : {
+    "mobile" : 0,
+    "desktop" : 0,
+    "tablet" : 0,
+    "other" : 0
+  },
+  "operatingSystem" : {
+    "data" : [ 0, 0, 0, 0, 0, 0, 0 ],
+    "labels" : [ "Android", "iOS", "Windows", "MacOS", "Linux", "Windows Phone", "Other" ]
+  },
+  "engagement" : {
+    "data" : [ 17, 11, 11, 5, 8, 11, 11, 8, 7, 8 ]
+  }
+}

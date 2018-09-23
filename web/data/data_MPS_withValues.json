@@ -1,0 +1,51 @@
+{
+  "campaignTitle" : "",
+  "clientName" : "AXA",
+  "procedureName" : "InteractiveVideo",
+  "scope" : "TEST",
+  "version" : "MPS v1",
+  "lastUpdate" : "2018-06-21 09:20:29",
+  "versions" : null,
+  "email" : {
+    "sent" : 246,
+    "opened" : 165,
+    "openRate" : 13.0,
+    "delivered" : 132,
+    "bounces" : 191,
+    "bounceRate" : 54.0,
+    "clicks" : 74,
+    "clickRate" : 227.0,
+    "purlProduced" : 71
+  },
+  "video" : {
+    "viewsUnique" : 200,
+    "viewsUser" : 31.0,
+    "interactions" : 173,
+    "conversions" : 178,
+    "conversionRate" : 40.0,
+    "interactionRate" : 67.0,
+    "viewsRate" : 31.0,
+    "views" : 44
+  },
+  "firstDay" : {
+    "opened" : [ 50, 37, 87, 98, 115, 51, 50, 109, 91, 109, 24, 93, 31, 96, 126, 42, 61, 24, 109, 61, 30, 121, 113, 90 ],
+    "views" : [ 175, 32, 41, 78, 131, 147, 91, 145, 156, 86, 190, 82, 31, 175, 59, 162, 137, 65, 136, 45, 121, 96, 161, 182 ],
+    "conversions" : [ 132, 60, 126, 135, 158, 146, 127, 137, 86, 135, 33, 55, 86, 97, 113, 161, 89, 126, 94, 84, 38, 64, 169, 165 ]
+  },
+  "conversions" : [ [ "Scopri la filiale MPS più vicina", "4", "100" ], [ "Rinnova con carta di credito", "2", "50" ] ],
+  "interactions" : [ ],
+  "deviceType" : {
+    "mobile" : 23,
+    "desktop" : 12,
+    "tablet" : 54,
+    "other" : 5
+  },
+  "operatingSystem" : {
+    "data" : [ 12, 3, 54, 10, 6, 3, 5],
+    "labels" : [ "Android", "iOS", "Windows", "MacOS", "Linux", "Windows Phone", "Other" ]
+  },
+  "engagement" : {
+    "data" : [ 6, 10, 9, 5, 3, 7, 3, 6, 3, 3 ],
+    "rate" : [ 6.50, 29.4, 23.1, 19.8, 97.5, 6.96, 74.2, 62.0, 15.3, 5.53 ]
+  }
+}

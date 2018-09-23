@@ -1,0 +1,386 @@
+{
+   "campaignInfo":{
+      "template":"default",
+      "campaignTitle":"undefined - undefined"
+   },
+   "email":{
+      "sent":{
+         "number":"320",
+         "label":"Email Spedite",
+         "tooltip":"Numero di email spedite"
+      },
+      "bounces":{
+         "number":"123",
+         "label":"Email Rimbalzate",
+         "tooltip":"Email non consegnate o rifiutate"
+      },
+      "bounceRate":{
+         "number":"231",
+         "label":"Rimbalzi Email",
+         "tooltip":"Email rimbalzate / Email spedite"
+      },
+      "delivered":{
+         "number":"12",
+         "label":"Email consegnate con successo",
+         "tooltip":"Email spedite - Email rimbalzate"
+      },
+      "opened":{
+         "number":"543",
+         "label":"Email Aperte",
+         "tooltip":"Numero di email aperte"
+      },
+      "openRate":{
+         "number":"23",
+         "label":"Apertura Email",
+         "tooltip":"Email aperte / Email consegnate"
+      },
+      "clicks":{
+         "number":"98",
+         "label":"Video Aperti",
+         "tooltip":"Numero di click sul link al video personalizzato nella mail"
+      },
+      "clickRate":{
+         "number":"1432",
+         "label":"Click al video nella email",
+         "tooltip":"Click sul link al video personalizzato nella mail / email consegnate"
+      },
+      "purlProduced":{
+         "number":"1432",
+         "label":"pURL prodotte",
+         "tooltip":"pURL prodotte"
+      }
+   },
+   "video":{
+      "views":{
+         "number":"12",
+         "label":"Visualizzazioni video totali",
+         "tooltip":"Nnumero totale di click sul tasto play"
+      },
+      "viewsUnique":{
+         "number":"543",
+         "label":"Visualizzazioni video",
+         "tooltip":"Numero di utenti che hanno cliccato sul tasto play del video almeno una volta"
+      },
+      "viewsUser":{
+         "number":"654",
+         "label":"Visualizzazioni per utente",
+         "tooltip":"Visualizzazioni uniche / Visualizzazioni totali"
+      },
+      "viewsRate":{
+         "number":"454",
+         "label":"Visualizzazioni video",
+         "tooltip":"Numero di utenti che hanno clicckato sul tasto play almeno una volta / mail consegnate"
+      },
+      "interactions":{
+         "number":"23",
+         "label":"Interazioni",
+         "tooltip":"Numero di click su popups e user directed storytelling"
+      },
+      "interactionRate":{
+         "number":"43",
+         "label":"Interazioni",
+         "tooltip":"Numero di click su popups e user directed storytelling"
+      },
+      "conversions":{
+         "number":"543",
+         "label":"Conversioni",
+         "tooltip":"Numero di click sulle conversioni del video"
+      },
+      "conversionRate":{
+         "number":"123",
+         "label":"Conversioni",
+         "tooltip":"Click su conversioni / visualizzazioni uniche"
+      }
+   },
+   "conversions":[
+      [
+
+      ]
+   ],
+   "interactions":[
+      [
+
+      ]
+   ],
+   "firstDay":{
+      "labels":[
+         "1h",
+         "2h",
+         "3h",
+         "4h",
+         "5h",
+         "6h",
+         "7h",
+         "8h",
+         "9h",
+         "10h",
+         "11h",
+         "12h",
+         "13h",
+         "14h",
+         "15h",
+         "16h",
+         "17h",
+         "18h",
+         "19h",
+         "20h",
+         "21h",
+         "22h",
+         "23h",
+         "24h"
+      ],
+      "datasets":[
+         {
+            "label":"Email Aperte",
+            "fill":false,
+            "borderColor":"rgb(101,214,125)",
+            "backgroundColor":"rgb(101,214,125)",
+            "data":[
+               10,
+               23,
+               43,
+               65,
+               34,
+               23,
+               65,
+               23,
+               65,
+               65,
+               21,
+               76,
+               76,
+               45,
+               23,
+               65,
+               87,
+               34,
+               54,
+               65,
+               93,
+               54,
+               47,
+               34
+            ]
+         },
+         {
+            "label":"Visualizzazioni Video",
+            "fill":false,
+            "borderColor":"rgb(253,212,91)",
+            "backgroundColor":"rgb(253,212,91)",
+            "data":[
+               43,
+               5,
+               65,
+               34,
+               2,
+               76,
+               45,
+               23,
+               65,
+               34,
+               65,
+               32,
+               65,
+               76,
+               43,
+               23,
+               54,
+               65,
+               23,
+               54,
+               65,
+               23,
+               43,
+               65
+            ]
+         },
+         {
+            "label":"Conversioni",
+            "fill":false,
+            "borderColor":"rgb(43,194,253)",
+            "backgroundColor":"rgb(43,194,253)",
+            "data":[
+            43,
+            65,
+            34,
+            23,
+            65,
+            23,
+            65,
+            65,
+            21,
+            76,
+            76,
+            10,
+            23,
+            43,
+            65,
+            34,
+            23,
+            65,
+            23,
+            65,
+            65,
+            21,
+            76,
+            76
+            ]
+         }
+      ]
+   },
+   "engagement":{
+      "labels":[
+         "0%",
+         "10%",
+         "20%",
+         "30%",
+         "40%",
+         "50%",
+         "60%",
+         "70%",
+         "80%",
+         "90%",
+         "100%"
+      ],
+      "datasets":[
+         {
+            "label":"Numero di Utenti",
+            "fill":false,
+            "borderColor":"rgb(43,194,253)",
+            "backgroundColor":"rgb(43,194,253)",
+            "data":[
+               10,
+               23,
+               43,
+               65,
+               34,
+               23,
+               65,
+               23,
+               65,
+               65,
+               12
+            ]
+         }
+      ]
+   },
+   "deviceType":{
+      "datasets":[
+         {
+            "label":"Dataset 2",
+            "backgroundColor":[
+               "rgb(23,125,251)",
+               "rgb(43,194,253)",
+               "rgb(253,212,91)"
+            ],
+            "data":[
+               43,
+               21,
+               65
+            ]
+         }
+      ],
+      "labels":[
+         "Mobile",
+         "Desktop",
+         "Tablet"
+      ]
+   },
+   "operatingSystem":{
+      "datasets":[
+         {
+            "label":"Dataset 1",
+            "backgroundColor":[
+               "rgb(23,125,251)",
+               "rgb(43,194,253)",
+               "rgb(253,212,91)",
+               "rgb(101,214,125)",
+               "rgb(252, 96, 152)",
+               "rgb(254, 101, 32)"
+            ],
+            "data":[
+               34,
+               65,
+               32,
+               45,
+               65,
+               23,
+               54
+            ]
+         }
+      ],
+      "labels":[
+         "Android",
+         "iOS",
+         "Windows",
+         "MacOS",
+         "Linux",
+         "Windows Phone",
+         "Other"
+      ]
+   },
+   "openRate":{
+      "datasets":[
+         {
+            "data":[
+               0
+            ],
+            "backgroundColor":"rgb(101,214,125)"
+         },
+         {
+            "data":[
+               100
+            ],
+            "backgroundColor":"rgb(228, 228, 228)"
+         }
+      ]
+   },
+   "bounceRate":{
+      "datasets":[
+         {
+            "data":[
+               0
+            ],
+            "backgroundColor":"rgb(23,125,251)"
+         },
+         {
+            "data":[
+               100
+            ],
+            "backgroundColor":"rgb(228, 228, 228)"
+         }
+      ]
+   },
+   "viewsRate":{
+      "datasets":[
+         {
+            "data":[
+               0
+            ],
+            "backgroundColor":"rgb(253,212,91)"
+         },
+         {
+            "data":[
+               100
+            ],
+            "backgroundColor":"rgb(228, 228, 228)"
+         }
+      ]
+   },
+   "conversionRate":{
+      "datasets":[
+         {
+            "data":[
+               0
+            ],
+            "backgroundColor":"rgb(43,194,253)"
+         },
+         {
+            "data":[
+               100
+            ],
+            "backgroundColor":"rgb(228, 228, 228)"
+         }
+      ]
+   }
+}

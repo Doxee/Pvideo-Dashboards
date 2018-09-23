@@ -1,0 +1,2103 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    7ca1ddd8-fc84-457e-b782-78cf71d60c2d:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 640
+        'y': 200
+      z: 1
+      embeds: []
+    9cfa61d7-81ce-4bab-8bce-488ea2f36a35:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 760
+        'y': 200
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 7ca1ddd8-fc84-457e-b782-78cf71d60c2d
+    8f375302-06b7-4ff8-b24d-d1c0b4d0038f:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 890
+        'y': 200
+      z: 1
+      embeds: []
+    177ed1d8-2fe5-4572-a475-29019c75c2f8:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 340
+      z: 1
+      embeds: []
+    639b2f79-d43f-4375-96a2-50e5117366f4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 40
+      z: 1
+      embeds: []
+    bc6b273e-e8ff-414a-9dd3-c68fb329419a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 470
+        'y': 200
+      z: 1
+      embeds: []
+    4554ec84-a1c0-44fd-bafb-d5517c46bda3:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 200
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 5140aab0-fcd4-4716-966f-b15627141291
+    5140aab0-fcd4-4716-966f-b15627141291:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 200
+        'y': 200
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 4554ec84-a1c0-44fd-bafb-d5517c46bda3
+    62d6c695-b45e-4666-8869-951a9d44d7fe:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 520
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 62d6c695-b45e-4666-8869-951a9d44d7fe
+    a2fb1020-300f-41cc-8302-77a2c3c4470b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 470
+        'y': 290
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - a2fb1020-300f-41cc-8302-77a2c3c4470b
+    acfc5aa8-85f2-41a3-8961-1a988464eaf2:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 640
+        'y': 390
+      z: 1
+      embeds: []
+    58072892-de15-4845-bb42-a0d60d7fb55b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 640
+        'y': 290
+      z: 1
+      embeds: []
+    f41f98f0-049f-4089-982b-db7ceefa38b0:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 640
+        'y': 600
+      z: 1
+      embeds: []
+    2f3e2721-faa3-42da-9b67-b6983d5e56c1:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 200
+        'y': 520
+      z: 1
+      embeds: []
+    29b37f07-8213-497d-9cb8-de6ca205d1d1:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 440
+        'y': 640
+      z: 1
+      embeds: []
+    80358720-48ed-4078-9c8d-df8544233ca3:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 440
+        'y': 740
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 29b37f07-8213-497d-9cb8-de6ca205d1d1
+    3fb46d2f-a42f-4a67-b42a-c7b8d01f8c82:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 100
+        'y': 520
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 2f3e2721-faa3-42da-9b67-b6983d5e56c1
+    a89ce137-2a4b-487b-8cf8-eb7fd11adaa7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 760
+        'y': 290
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - acfc5aa8-85f2-41a3-8961-1a988464eaf2
+        - 58072892-de15-4845-bb42-a0d60d7fb55b
+    93a945f6-73d3-4669-8c2f-439986e985f0:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 760
+        'y': 390
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - acfc5aa8-85f2-41a3-8961-1a988464eaf2
+    4ae64f25-8e2e-4616-b667-198a3631e430:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 440
+        'y': 520
+      z: 1
+      embeds: []
+    4b3ee586-a7cf-4610-8772-2d04ccd5acef:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 550
+        'y': 520
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 4ae64f25-8e2e-4616-b667-198a3631e430
+    77062c7b-19b1-47f3-9e0d-af2a3eff6d39:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 740
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 389c9de7-7b67-4765-a88d-cacf01e568e1
+        - 389c9de7-7b67-4765-a88d-cacf01e568e1ma
+    be5a22b9-380d-4022-8c9c-97eed781fe5b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -360
+        'y': -160
+      z: 1
+      embeds: []
+    d92f6492-e992-47d6-becf-9269f144755b:
+      size:
+        width: 420
+        height: 470
+      position:
+        x: -550
+        'y': 70
+      z: 1
+      embeds:
+        - daf8a8c7-ec19-4e6a-9af3-4e0a203f2aa7
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - d2d261e2-f767-49d8-8e60-d1e62fcb601a
+    569373cd-5913-4a51-b51e-1c06fa1362d7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -480
+        'y': -160
+      z: 1
+      embeds: []
+    a4af6623-0e52-4e62-a5f5-933998280613:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 410
+        'y': -90
+      z: 1
+      embeds: []
+      dependson:
+        - bc6b273e-e8ff-414a-9dd3-c68fb329419a
+    c6a30fee-bb56-4249-ac79-b84948541b6c:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 410
+        'y': 420
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 177ed1d8-2fe5-4572-a475-29019c75c2f8
+    4c987c34-97aa-4601-b3ff-79aa0720097b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': -90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 639b2f79-d43f-4375-96a2-50e5117366f4
+    0c4fa0b8-1407-4c0e-b0c5-fe9444419559:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 460
+        'y': 90
+      z: 1
+      embeds: []
+    a0bff6e5-6c5d-4f6c-b8c0-341ddcfde876:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 610
+        'y': 90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - bc6b273e-e8ff-414a-9dd3-c68fb329419a
+    127f60bc-1a1f-40fb-a247-f0bef54bb290:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -400
+        'y': 200
+      z: 3
+      parent: 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+      embeds: []
+      isassociatedwith:
+        - daf8a8c7-ec19-4e6a-9af3-4e0a203f2aa7
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+    4bc88d49-5d4d-4051-87a0-7ebe2a90d14a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -510
+        'y': 200
+      z: 3
+      parent: 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+      embeds: []
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+        - 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+    3abfa23c-5ad0-4d8a-9134-2d7c8c29c57d:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -400
+        'y': 400
+      z: 3
+      parent: c1debc58-291d-4153-a6c3-877aeedb26f2
+      embeds: []
+      isassociatedwith:
+        - daf8a8c7-ec19-4e6a-9af3-4e0a203f2aa7
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+    89002467-5d20-4938-966f-3ded11cd8876:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -510
+        'y': 400
+      z: 3
+      parent: c1debc58-291d-4153-a6c3-877aeedb26f2
+      embeds: []
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+        - c1debc58-291d-4153-a6c3-877aeedb26f2
+    c1debc58-291d-4153-a6c3-877aeedb26f2:
+      size:
+        width: 250
+        height: 160
+      position:
+        x: -550
+        'y': 340
+      z: 2
+      parent: d92f6492-e992-47d6-becf-9269f144755b
+      embeds:
+        - 89002467-5d20-4938-966f-3ded11cd8876
+        - 3abfa23c-5ad0-4d8a-9134-2d7c8c29c57d
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+    4cfb6735-3708-45f9-8f8e-6c044ce8825e:
+      size:
+        width: 250
+        height: 140
+      position:
+        x: -550
+        'y': 150
+      z: 2
+      parent: d92f6492-e992-47d6-becf-9269f144755b
+      embeds:
+        - 4bc88d49-5d4d-4051-87a0-7ebe2a90d14a
+        - 127f60bc-1a1f-40fb-a247-f0bef54bb290
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+    daf8a8c7-ec19-4e6a-9af3-4e0a203f2aa7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -220
+        'y': 130
+      z: 2
+      parent: d92f6492-e992-47d6-becf-9269f144755b
+      embeds: []
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+    d2d261e2-f767-49d8-8e60-d1e62fcb601a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -220
+        'y': 310
+      z: 2
+      parent: d92f6492-e992-47d6-becf-9269f144755b
+      embeds: []
+      iscontainedinside:
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+        - d92f6492-e992-47d6-becf-9269f144755b
+      dependson:
+        - 3abfa23c-5ad0-4d8a-9134-2d7c8c29c57d
+        - 89002467-5d20-4938-966f-3ded11cd8876
+        - 127f60bc-1a1f-40fb-a247-f0bef54bb290
+        - 4bc88d49-5d4d-4051-87a0-7ebe2a90d14a
+    389c9de7-7b67-4765-a88d-cacf01e568e1ma:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 310
+        'y': 640
+      z: 1
+      embeds: []
+    b78b66b4-23d1-47c3-b658-3c8ad6ed4961:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: -360
+        'y': -80
+      z: 0
+      embeds: []
+      isassociatedwith:
+        - be5a22b9-380d-4022-8c9c-97eed781fe5b
+Outputs:
+  PoolProviderName:
+    Description: ProviderName
+    Export:
+      Name: !Join
+        - ''
+        - - exportPoolProviderName
+          - !Ref Suffix
+    Value: !Join
+      - ':'
+      - - !GetAtt PvideoDashboardUserPool.ProviderName
+        - !Ref PvideoDashboardUserPoolClient
+  ClientId:
+    Description: User pool client identifier
+    Export:
+      Name: !Join
+        - ''
+        - - exportClientId
+          - !Ref Suffix
+    Value: !Ref PvideoDashboardUserPoolClient
+  UserPoolId:
+    Description: User pool identifier
+    Export:
+      Name: !Join
+        - ''
+        - - exportUserPoolId
+          - !Ref Suffix
+    Value: !Ref PvideoDashboardUserPool
+  IdentityPoolId:
+    Description: Identity pool identifier
+    Export:
+      Name: !Join
+        - ''
+        - - exportIdentityPoolId
+          - !Ref Suffix
+    Value: !Ref PvideoDashboardIdentityPool
+  S3RiaBuclet:
+    Description: Name of the bucket used to store a web site
+    Export:
+      Name: !Join
+        - ''
+        - - exportS3RiaBucket
+          - !Ref Suffix
+    Value: !Ref RiaContentBucket
+Resources:
+  ContentBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: LogDeliveryWrite
+      BucketName: !Join
+        - ''
+        - - pvideo-dashboard-bucket
+          - !Ref Suffix
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - '*'
+            AllowedMethods:
+              - GET
+            AllowedOrigins:
+              - '*'
+            MaxAge: 3000
+      LoggingConfiguration:
+        DestinationBucketName: !Join
+          - ''
+          - - pvideo-dashboard-bucket
+            - !Ref Suffix
+        LogFilePrefix: logs/s3-data/
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7ca1ddd8-fc84-457e-b782-78cf71d60c2d
+  RiaContentBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        RoutingRules:
+          -
+            RedirectRule:
+              HostName: !Ref CloudfrontRiaDistributionCNAME
+              ReplaceKeyWith: ''
+              Protocol: https
+            RoutingRuleCondition:
+                HttpErrorCodeReturnedEquals: 404
+      BucketName: !Join
+        - ''
+        - - pvideo-ria-dashboard-bucket
+          - !Ref Suffix
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - '*'
+            AllowedMethods:
+              - GET
+            AllowedOrigins:
+              - '*'
+            MaxAge: 3000
+      LoggingConfiguration:
+        DestinationBucketName: !Ref ContentBucket
+        LogFilePrefix: logs/s3-ria/
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7ca1ddd8-fc84-457e-b782-78cf71d60c2d
+  BucketPolicy:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties:
+      Bucket: !Ref ContentBucket
+      PolicyDocument:
+        Statement:
+          - Action:
+              - 's3:GetObject'
+            Effect: Allow
+            Resource: !Join
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref ContentBucket
+                - /data/*
+            Principal:
+              AWS: !Join
+                - ' '
+                - - >-
+                    arn:aws:iam::cloudfront:user/CloudFront Origin Access
+                    Identity
+                  - !Ref AccessIdentity
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9cfa61d7-81ce-4bab-8bce-488ea2f36a35
+    DependsOn:
+      - AccessIdentity
+  AccessIdentity:
+    Type: 'AWS::CloudFront::CloudFrontOriginAccessIdentity'
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: >-
+          This identity is used by PvideoDashboards to restrict access to the
+          back-end bucket
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 8f375302-06b7-4ff8-b24d-d1c0b4d0038f
+  DashboardDataDistribution:
+    Type: 'AWS::CloudFront::Distribution'
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - !Ref CloudfrontDistributionCNAME
+        CacheBehaviors:
+          - AllowedMethods:
+              - GET
+              - HEAD
+              - OPTIONS
+              - PUT
+              - POST
+              - PATCH
+              - DELETE
+            DefaultTTL: 60
+            ForwardedValues:
+              Headers:
+                - Access-Control-Request-Headers
+                - Access-Control-Request-Method
+                - Origin
+              QueryString: false
+            MaxTTL: 60
+            MinTTL: 0
+            Compress: true
+            PathPattern: /data/*
+            TargetOriginId: MediaContentOrigin
+            TrustedSigners:
+              - !Ref 'AWS::AccountId'
+            ViewerProtocolPolicy: redirect-to-https
+        Comment: >-
+          This distribution is used to allow authenticated access to assets
+          required by dashboards in order to render reports
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+            - PUT
+            - POST
+            - PATCH
+            - DELETE
+          DefaultTTL: 0
+          ForwardedValues:
+            Cookies:
+              Forward: all
+            Headers:
+              - Accept
+              - Authorization
+              - Referer
+            QueryString: true
+          MaxTTL: 0
+          MinTTL: 0
+          TargetOriginId: OriginApiGw
+          ViewerProtocolPolicy: https-only
+        Enabled: true
+        HttpVersion: http2
+        IPV6Enabled: true
+        Logging:
+          Bucket: !GetAtt ContentBucket.DomainName
+          Prefix: logs/cloudfront/
+          IncludeCookies: true
+        ViewerCertificate:
+          AcmCertificateArn: !Ref CertificateACM
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.1_2016
+        Origins:
+          - DomainName: !GetAtt ContentBucket.DomainName
+            Id: MediaContentOrigin
+            S3OriginConfig:
+              OriginAccessIdentity: !Join
+                - /
+                - - origin-access-identity
+                  - cloudfront
+                  - !Ref AccessIdentity
+          - CustomOriginConfig:
+              HTTPPort: 80
+              HTTPSPort: 443
+              OriginKeepaliveTimeout: 5
+              OriginProtocolPolicy: match-viewer
+              OriginSSLProtocols:
+                - TLSv1
+                - TLSv1.1
+                - TLSv1.2
+            DomainName: !Join
+              - .
+              - - !Ref PvideoDashboardAPI
+                - execute-api
+                - !Ref 'AWS::Region'
+                - amazonaws.com
+            Id: OriginApiGw
+            OriginPath: /api
+  GetCampaign:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Code:
+        S3Bucket: !Ref S3CodeBucketName
+        S3Key: !Join
+          - ''
+          - - pvideo-dashboard/
+            - !Select
+              - 0
+              - !Ref Version
+            - /lambda-get-campaigns.zip
+      Description: >-
+        This is a callable Lambda function which returns to the dashboard
+        front-end UI signed URL to access S3 JSON objects which stores campaigns
+        data already read from Redshift by the extraction Lambda function.
+      Environment:
+        Variables:
+          DynamoAuthorizationTableName: !Ref PvideoDashboardAuthorization
+          DynamoCampaignTableName: !Ref PvideoDashboardCampaign
+      FunctionName: !Join
+        - ''
+        - - PvideoDashboardGetCampaigns
+          - !Ref Suffix
+      Handler: index.handler
+      MemorySize: 128
+      Role: !GetAtt
+        - LambdaRole
+        - Arn
+      Runtime: nodejs6.10
+      Timeout: 10
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 177ed1d8-2fe5-4572-a475-29019c75c2f8
+    DependsOn:
+      - LambdaRole
+  GetJSON:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Code:
+        S3Bucket: !Ref S3CodeBucketName
+        S3Key: !Join
+          - ''
+          - - pvideo-dashboard/
+            - !Select
+              - 0
+              - !Ref Version
+            - /lambda-get-json.zip
+      Description: >-
+        This is a callable Lambda function which returns to the dashboard
+        front-end UI signed URL to access S3 JSON objects which stores campaigns
+        data already read from Redshift by the extraction Lambda function.
+      Environment:
+        Variables:
+          CloudFrontAddress: !Join
+            - /
+            - - https:/
+              - !Ref CloudfrontDistributionCNAME
+              - data
+          SignDataTable: !Ref DBTableCloudfrontSign
+      FunctionName: !Join
+        - ''
+        - - PvideoDashboardGetJSON
+          - !Ref Suffix
+      Handler: index.handler
+      MemorySize: 128
+      Role: !GetAtt
+        - LambdaRole
+        - Arn
+      Runtime: nodejs6.10
+      Timeout: 10
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 639b2f79-d43f-4375-96a2-50e5117366f4
+    DependsOn:
+      - LambdaRole
+  GetMetric:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Code:
+        S3Bucket: !Ref S3CodeBucketName
+        S3Key: !Join
+          - ''
+          - - pvideo-dashboard/
+            - !Select
+              - 0
+              - !Ref Version
+            - /lambda-data-extraction.jar
+      Description: >-
+        This is a scheduled, non accessible, Lambda function which extracts data
+        from a Redshift Database.
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref ContentBucket
+          CLUSTER_ID_CA: !Ref RedshiftClusterId
+          CONFIGURATION_TABLE: !Ref PvideoDashboardCampaign
+          JSON_MAIN_FOLDER: data
+      FunctionName: !Join
+        - ''
+        - - PvideoDashboardExtractor
+          - !Ref Suffix
+      Handler: >-
+        com.doxee.pvideo.dashboard.aws.lambda.handler.PvideoDashboardExtractorHandle
+      MemorySize: 512
+      Role: !GetAtt
+        - LambdaRole
+        - Arn
+      Runtime: java8
+      Timeout: 300
+      ReservedConcurrentExecutions: 1
+      VpcConfig:
+        SecurityGroupIds:
+          - !Ref RedshiftSecurityGroup
+        SubnetIds: !Ref RedshiftSubnetIds
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: bc6b273e-e8ff-414a-9dd3-c68fb329419a
+    DependsOn:
+      - LambdaRole
+  LambdaPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - PvideoDashboardLambdaRole
+          - !Ref Suffix
+      Roles:
+        - !Ref LambdaRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 'redshift:DescribeHsmConfigurations'
+              - 'redshift:DescribeEvents'
+              - 'logs:*'
+              - 'redshift:DescribeDefaultClusterParameters'
+              - 'redshift:DescribeEventCategories'
+              - 'redshift:DescribeClusterSubnetGroups'
+              - 'redshift:DescribeReservedNodeOfferings'
+              - 'redshift:DescribeClusterVersions'
+              - 'redshift:DescribeClusterSnapshots'
+              - 'redshift:DescribeLoggingStatus'
+              - 'redshift:DescribeTableRestoreStatus'
+              - 'redshift:DescribeClusterParameters'
+              - 'redshift:DescribeClusterSecurityGroups'
+              - 'redshift:DescribeEventSubscriptions'
+              - 'redshift:DescribeOrderableClusterOptions'
+              - 's3:*'
+              - 'redshift:DescribeHsmClientCertificates'
+              - 'redshift:ViewQueriesInConsole'
+              - 'redshift:DescribeTags'
+              - 'redshift:DescribeClusterParameterGroups'
+              - 'redshift:DescribeSnapshotCopyGrants'
+              - 'redshift:DescribeReservedNodes'
+              - 'redshift:DescribeClusters'
+              - 'lambda:*'
+              - 'redshift:DescribeResize'
+              - 'redshift:GetClusterCredentials'
+            Resource: '*'
+          - Effect: Allow
+            Action: 'dynamodb:*'
+            Resource: '*'
+          - Effect: Allow
+            Action:
+              - 's3:*'
+              - 'ec2:*'
+            Resource: 'arn:aws:s3:::pvideodashboard/*'
+          - Effect: Allow
+            Action:
+              - 'logs:CreateLogGroup'
+              - 'logs:CreateLogStream'
+              - 'logs:PutLogEvents'
+              - 'ec2:CreateNetworkInterface'
+              - 'ec2:DescribeNetworkInterfaces'
+              - 'ec2:DeleteNetworkInterface'
+            Resource: '*'
+          - Effect: Allow
+            Action:
+              - 'dynamodb:DescribeStream'
+              - 'dynamodb:GetRecords'
+              - 'dynamodb:GetShardIterator'
+              - 'dynamodb:ListStreams'
+              - 'logs:CreateLogGroup'
+              - 'logs:CreateLogStream'
+              - 'logs:PutLogEvents'
+            Resource: '*'
+          - Action:
+              - 'application-autoscaling:DescribeScalableTargets'
+              - 'application-autoscaling:DescribeScalingActivities'
+              - 'application-autoscaling:DescribeScalingPolicies'
+              - 'cloudwatch:DescribeAlarmHistory'
+              - 'cloudwatch:DescribeAlarms'
+              - 'cloudwatch:DescribeAlarmsForMetric'
+              - 'cloudwatch:GetMetricStatistics'
+              - 'cloudwatch:ListMetrics'
+              - 'datapipeline:DescribeObjects'
+              - 'datapipeline:DescribePipelines'
+              - 'datapipeline:GetPipelineDefinition'
+              - 'datapipeline:ListPipelines'
+              - 'datapipeline:QueryObjects'
+              - 'dynamodb:BatchGetItem'
+              - 'dynamodb:DescribeTable'
+              - 'dynamodb:GetItem'
+              - 'dynamodb:ListTables'
+              - 'dynamodb:Query'
+              - 'dynamodb:Scan'
+              - 'dynamodb:DescribeReservedCapacity'
+              - 'dynamodb:DescribeReservedCapacityOfferings'
+              - 'dynamodb:ListTagsOfResource'
+              - 'dynamodb:DescribeTimeToLive'
+              - 'dynamodb:DescribeLimits'
+              - 'dynamodb:ListGlobalTables'
+              - 'dynamodb:DescribeGlobalTable'
+              - 'dynamodb:DescribeBackup'
+              - 'dynamodb:ListBackups'
+              - 'dynamodb:DescribeContinuousBackups'
+              - 'dax:Describe*'
+              - 'dax:List*'
+              - 'dax:GetItem'
+              - 'dax:BatchGetItem'
+              - 'dax:Query'
+              - 'dax:Scan'
+              - 'ec2:DescribeVpcs'
+              - 'ec2:DescribeSubnets'
+              - 'ec2:DescribeSecurityGroups'
+              - 'iam:GetRole'
+              - 'iam:ListRoles'
+              - 'sns:ListSubscriptionsByTopic'
+              - 'sns:ListTopics'
+              - 'lambda:ListFunctions'
+              - 'lambda:ListEventSourceMappings'
+              - 'lambda:GetFunctionConfiguration'
+            Effect: Allow
+            Resource: '*'
+          - Action:
+              - 'logs:*'
+            Effect: Allow
+            Resource: '*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5140aab0-fcd4-4716-966f-b15627141291
+  LambdaRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: 'sts:AssumeRole'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4554ec84-a1c0-44fd-bafb-d5517c46bda3
+  PvideoDashboardAuthorization:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: AuthJson
+          AttributeType: S
+        - AttributeName: Groupname
+          AttributeType: S
+      GlobalSecondaryIndexes:
+        - IndexName: !Join
+            - ''
+            - - AuthJson-
+              - !Ref Suffix
+              - '-index'
+          KeySchema:
+            - AttributeName: AuthJson
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 20
+            WriteCapacityUnits: 5
+      ProvisionedThroughput:
+        ReadCapacityUnits: 20
+        WriteCapacityUnits: 5
+      KeySchema:
+        - AttributeName: Groupname
+          KeyType: HASH
+      TableName: !Join
+        - ''
+        - - PvideoDashboardAuthorization
+          - !Ref Suffix
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 62d6c695-b45e-4666-8869-951a9d44d7fe
+  PvideoDashboardCampaign:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: ProcedureKey
+          AttributeType: S
+      KeySchema:
+        - AttributeName: ProcedureKey
+          KeyType: HASH
+      TableName: !Join
+        - ''
+        - - PvideoDashboardCampaign
+          - !Ref Suffix
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a2fb1020-300f-41cc-8302-77a2c3c4470b
+  ScalingRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - application-autoscaling.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: !Join
+            - ''
+            - - DynamoScalingRole
+              - !Ref Suffix
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'dynamodb:DescribeTable'
+                  - 'dynamodb:UpdateTable'
+                  - 'cloudwatch:PutMetricAlarm'
+                  - 'cloudwatch:DescribeAlarms'
+                  - 'cloudwatch:GetMetricStatistics'
+                  - 'cloudwatch:SetAlarmState'
+                  - 'cloudwatch:DeleteAlarms'
+                Resource: '*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: f41f98f0-049f-4089-982b-db7ceefa38b0
+  ReadAuthorizationScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - ReadAuthorizationScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref AuthorizationReadScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBReadCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 80358720-48ed-4078-9c8d-df8544233ca3
+  WriteAuthorizationScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - WriteAuthorizationScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref AuthorizationWriteScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBWriteCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3fb46d2f-a42f-4a67-b42a-c7b8d01f8c82
+  ReadCampaignScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - ReadCampaignScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref CampaignReadScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBReadCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a89ce137-2a4b-487b-8cf8-eb7fd11adaa7
+  WriteCampaignScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - WriteCampaignScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref CampaignWriteScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBWriteCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 93a945f6-73d3-4669-8c2f-439986e985f0
+  CampaignWriteScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 5
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardCampaign
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:table:WriteCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: acfc5aa8-85f2-41a3-8961-1a988464eaf2
+  CampaignReadScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 20
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardCampaign
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:table:ReadCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 58072892-de15-4845-bb42-a0d60d7fb55b
+  AuthorizationWriteScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 5
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardAuthorization
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:table:WriteCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2f3e2721-faa3-42da-9b67-b6983d5e56c1
+  AuthorizationReadScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 20
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardAuthorization
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:table:ReadCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 29b37f07-8213-497d-9cb8-de6ca205d1d1
+  AuthorizationIndexWriteScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 5
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardAuthorization
+          - index
+          - !Join
+            - ''
+            - - AuthJson-
+              - !Ref Suffix
+              - '-index'
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:index:WriteCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 389c9de7-7b67-4765-a88d-cacf01e568e1ma
+  AuthorizationIndexReadScaling:
+    Type: 'AWS::ApplicationAutoScaling::ScalableTarget'
+    Properties:
+      MaxCapacity: 10000
+      MinCapacity: 5
+      ResourceId: !Join
+        - /
+        - - table
+          - !Ref PvideoDashboardAuthorization
+          - index
+          - !Join
+            - ''
+            - - AuthJson-
+              - !Ref Suffix
+              - '-index'
+      RoleARN: !GetAtt
+        - ScalingRole
+        - Arn
+      ScalableDimension: 'dynamodb:index:ReadCapacityUnits'
+      ServiceNamespace: dynamodb
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4ae64f25-8e2e-4616-b667-198a3631e430
+  WriteAuthorizationIndexScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - WriteAuthorizationIndexScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref AuthorizationIndexWriteScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBWriteCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 77062c7b-19b1-47f3-9e0d-af2a3eff6d39
+  ReadAuthorizationIndexScalingPolicy:
+    Type: 'AWS::ApplicationAutoScaling::ScalingPolicy'
+    Properties:
+      PolicyName: !Join
+        - ''
+        - - ReadAuthorizationIndexScalingPolicy
+          - !Ref Suffix
+      PolicyType: TargetTrackingScaling
+      ScalingTargetId: !Ref AuthorizationIndexReadScaling
+      TargetTrackingScalingPolicyConfiguration:
+        TargetValue: 70
+        ScaleInCooldown: 60
+        ScaleOutCooldown: 60
+        PredefinedMetricSpecification:
+          PredefinedMetricType: DynamoDBReadCapacityUtilization
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4b3ee586-a7cf-4610-8772-2d04ccd5acef
+  ScheduledMetricExtraction:
+    Type: 'AWS::Events::Rule'
+    Properties:
+      Description: >-
+        This rules run scheduled extraction of data for all the procedures from
+        Redshift
+      State: ENABLED
+      ScheduleExpression: rate(5 minutes)
+      Targets:
+        - Arn: !GetAtt
+            - GetMetric
+            - Arn
+          Id: Extract
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0c4fa0b8-1407-4c0e-b0c5-fe9444419559
+    DependsOn:
+      - GetMetric
+  ScheduledMetricExtractionInvocationPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt
+        - ScheduledMetricExtraction
+        - Arn
+      FunctionName: !Ref GetMetric
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a0bff6e5-6c5d-4f6c-b8c0-341ddcfde876
+  WarmUpRule:
+    Type: 'AWS::Events::Rule'
+    Properties:
+      Description: This rules run scheduled warm up
+      State: ENABLED
+      ScheduleExpression: rate(5 minutes)
+      Targets:
+        - Arn: !GetAtt
+            - GetJSON
+            - Arn
+          Id: WarmUpGetJSON
+        - Arn: !GetAtt
+            - GetCampaign
+            - Arn
+          Id: WarmUpGetCampaign
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a4af6623-0e52-4e62-a5f5-933998280613
+    DependsOn:
+      - GetMetric
+  WarmUpGetJSONInvocationPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName: !Ref GetJSON
+      Action: 'lambda:InvokeFunction'
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt
+        - WarmUpRule
+        - Arn
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4c987c34-97aa-4601-b3ff-79aa0720097b
+  WarmUpGetCampaignInvocationPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName: !Ref GetCampaign
+      Action: 'lambda:InvokeFunction'
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt
+        - WarmUpRule
+        - Arn
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: c6a30fee-bb56-4249-ac79-b84948541b6c
+  PvideoDashboardAPI:
+    Type: 'AWS::ApiGateway::RestApi'
+    Properties:
+      Description: This API is intended to deliver resources required by Pvideo Dashboards
+      Name: !Join
+        - ''
+        - - PvideoDashboard
+          - !Ref Suffix
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d92f6492-e992-47d6-becf-9269f144755b
+  CampaignsOptions:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref PvideoDashboardAPI
+      HttpMethod: OPTIONS
+      AuthorizationType: NONE
+      MethodResponses:
+        - ResponseParameters:
+            method.response.header.Access-Control-Allow-Methods: true
+            method.response.header.Access-Control-Allow-Headers: true
+            method.response.header.Access-Control-Allow-Origin: true
+            method.response.header.Access-Control-Expose-Headers: true
+          ResponseModels:
+            application/json: Empty
+          StatusCode: '200'
+      Integration:
+        IntegrationResponses:
+          - StatusCode: '200'
+            ResponseParameters:
+              method.response.header.Access-Control-Allow-Headers: >-
+                'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,
+                dashtoken'
+              method.response.header.Access-Control-Allow-Methods: '''GET,OPTIONS'''
+              method.response.header.Access-Control-Allow-Origin: '''*'''
+        PassthroughBehavior: WHEN_NO_MATCH
+        RequestTemplates:
+          application/json: '{"statusCode": 200}'
+        Type: MOCK
+      ResourceId: !Ref CampaignsResource
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4bc88d49-5d4d-4051-87a0-7ebe2a90d14a
+  CampaignsGet:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref PvideoDashboardAPI
+      HttpMethod: GET
+      Integration:
+        IntegrationHttpMethod: POST
+        IntegrationResponses:
+          - StatusCode: '200'
+            ResponseParameters:
+              method.response.header.Access-Control-Allow-Origin: '''*'''
+        RequestTemplates:
+          application/json: |-
+            {
+                "body": $input.json('$'),
+                "CognitoUser": "$context.authorizer.claims['cognit:username']",
+                "CognitoGroups": "$context.authorizer.claims['cognito:groups']"
+            }
+        PassthroughBehavior: WHEN_NO_TEMPLATES
+        ContentHandling: CONVERT_TO_TEXT
+        Type: AWS
+        Uri: !Join
+          - ''
+          - - 'arn:aws:apigateway:'
+            - !Ref 'AWS::Region'
+            - ':lambda:path/2015-03-31/functions/'
+            - !GetAtt
+              - GetCampaign
+              - Arn
+            - /invocations
+      MethodResponses:
+        - ResponseParameters:
+            method.response.header.Access-Control-Allow-Origin: true
+          ResponseModels:
+            application/json: Empty
+          StatusCode: '200'
+      RequestParameters:
+        method.request.header.dashtoken: false
+      AuthorizationType: COGNITO_USER_POOLS
+      AuthorizerId: !Ref CognitoAuthorizer
+      ResourceId: !Ref CampaignsResource
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 127f60bc-1a1f-40fb-a247-f0bef54bb290
+  GetCampaignLambdaAPIGPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName: !GetAtt GetCampaign.Arn
+      Action: 'lambda:InvokeFunction'
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Join ['', ['arn:aws:execute-api:', !Ref 'AWS::Region', ':', !Ref 'AWS::AccountId', ':', !Ref PvideoDashboardAPI, '/*/GET/campaigns']]
+  GetJsonPost:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref PvideoDashboardAPI
+      HttpMethod: POST
+      Integration:
+        IntegrationHttpMethod: POST
+        IntegrationResponses:
+          - StatusCode: '200'
+            ResponseParameters:
+              method.response.header.Access-Control-Allow-Origin: '''*'''
+        RequestTemplates:
+          application/json: |-
+            {
+                "body": $input.json('$'),
+                "CognitoUser": "$context.authorizer.claims['cognit:username']",
+                "CognitoGroups": "$context.authorizer.claims['cognito:groups']"
+            }
+        Type: AWS
+        Uri: !Join
+          - ''
+          - - 'arn:aws:apigateway:'
+            - !Ref 'AWS::Region'
+            - ':lambda:path/2015-03-31/functions/'
+            - !GetAtt
+              - GetJSON
+              - Arn
+            - /invocations
+      MethodResponses:
+        - ResponseParameters:
+            method.response.header.Access-Control-Allow-Origin: true
+          ResponseModels:
+            application/json: Empty
+          StatusCode: '200'
+      AuthorizationType: COGNITO_USER_POOLS
+      AuthorizerId: !Ref CognitoAuthorizer
+      RequestParameters:
+        method.request.header.dashtoken: false
+      ResourceId: !Ref GetJsonResource
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3abfa23c-5ad0-4d8a-9134-2d7c8c29c57d
+  GetJsonLambdaAPIGPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName: !GetAtt GetJSON.Arn
+      Action: 'lambda:InvokeFunction'
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Join ['', ['arn:aws:execute-api:', !Ref 'AWS::Region', ':', !Ref 'AWS::AccountId', ':', !Ref PvideoDashboardAPI, '/*/POST/getjson']]
+  GetJsonOptions:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref PvideoDashboardAPI
+      HttpMethod: OPTIONS
+      AuthorizationType: NONE
+      MethodResponses:
+        - ResponseParameters:
+            method.response.header.Access-Control-Allow-Methods: true
+            method.response.header.Access-Control-Allow-Headers: true
+            method.response.header.Access-Control-Allow-Origin: true
+            method.response.header.Access-Control-Expose-Headers: true
+          ResponseModels:
+            application/json: Empty
+          StatusCode: '200'
+      Integration:
+        IntegrationResponses:
+          - StatusCode: '200'
+            ResponseParameters:
+              method.response.header.Access-Control-Allow-Headers: >-
+                'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,
+                dashtoken'
+              method.response.header.Access-Control-Allow-Methods: '''GET,OPTIONS'''
+              method.response.header.Access-Control-Allow-Origin: '''*'''
+        PassthroughBehavior: WHEN_NO_MATCH
+        RequestTemplates:
+          application/json: '{"statusCode": 200}'
+        Type: MOCK
+      ResourceId: !Ref GetJsonResource
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 89002467-5d20-4938-966f-3ded11cd8876
+  GetJsonResource:
+    Type: 'AWS::ApiGateway::Resource'
+    Properties:
+      PathPart: getjson
+      RestApiId: !Ref PvideoDashboardAPI
+      ParentId: !GetAtt
+        - PvideoDashboardAPI
+        - RootResourceId
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: c1debc58-291d-4153-a6c3-877aeedb26f2
+  CampaignsResource:
+    Type: 'AWS::ApiGateway::Resource'
+    Properties:
+      PathPart: campaigns
+      RestApiId: !Ref PvideoDashboardAPI
+      ParentId: !GetAtt
+        - PvideoDashboardAPI
+        - RootResourceId
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4cfb6735-3708-45f9-8f8e-6c044ce8825e
+  CognitoAuthorizer:
+    Type: 'AWS::ApiGateway::Authorizer'
+    Properties:
+      RestApiId: !Ref PvideoDashboardAPI
+      Name: !Join
+        - ''
+        - - PvideoDashboardAuthorizer
+          - !Ref Suffix
+      Type: COGNITO_USER_POOLS
+      IdentitySource: method.request.header.dashtoken
+      ProviderARNs:
+        - !GetAtt
+          - PvideoDashboardUserPool
+          - Arn
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: daf8a8c7-ec19-4e6a-9af3-4e0a203f2aa7
+  ApiStage:
+    Type: "AWS::ApiGateway::Stage"
+    Properties:
+      DeploymentId: !Ref ApiDeployments
+      Description: >-
+        This stage is used to make API resources accessible as an HTTP
+        RESTful service
+      RestApiId: !Ref PvideoDashboardAPI
+      StageName: api
+      MethodSettings:
+        -
+          DataTraceEnabled: true
+          HttpMethod: "*"
+          LoggingLevel: INFO
+          ResourcePath: /
+  ApiDeployments:
+    Type: 'AWS::ApiGateway::Deployment'
+    Properties:
+      Description: !Join
+        - ''
+        - - 'Version: '
+          - !Select
+            - 0
+            - !Ref Version
+      RestApiId: !Ref PvideoDashboardAPI
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d2d261e2-f767-49d8-8e60-d1e62fcb601a
+    DependsOn:
+      - GetJsonPost
+      - GetJsonOptions
+      - CampaignsGet
+      - CampaignsOptions
+  PvideoDashboardIdentityPool:
+    Type: 'AWS::Cognito::IdentityPool'
+    Properties:
+      IdentityPoolName: !Join
+        - ''
+        - - PvideoDashboardIdentityPool
+          - !Ref Suffix
+      AllowUnauthenticatedIdentities: false
+      CognitoIdentityProviders:
+        - ProviderName: !GetAtt PvideoDashboardUserPool.ProviderName
+          ClientId: !Ref PvideoDashboardUserPoolClient
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 569373cd-5913-4a51-b51e-1c06fa1362d7
+  PvideoDashboardUserPool:
+    Type: 'AWS::Cognito::UserPool'
+    Properties:
+      AdminCreateUserConfig:
+        AllowAdminCreateUserOnly: true
+        UnusedAccountValidityDays: 90
+        InviteMessageTemplate:
+          EmailMessage: !Join
+            - ''
+            - - >+
+                Il tuo username: <strong>{username}</strong> La tua password
+                temporanea: <strong>{####}</strong>
+
+              - !Join
+                - ''
+                - - 'Clicca qui per fare il login: '
+                  - 'https://'
+                  - !Ref CloudfrontRiaDistributionCNAME
+                  - |+
+
+              - Al primo login dovrai cambiare la tua password.
+          EmailSubject: Doxee - Cloud Analytics Dashboards
+          SMSMessage: 'Your username is {username} and temporary password is {####}.'
+      UserPoolName: !Join
+        - ''
+        - - PvideoDashboardUserPool
+          - !Ref Suffix
+      Schema:
+        - Name: email
+          Required: true
+          Mutable: true
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: true
+          RequireUppercase: true
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: be5a22b9-380d-4022-8c9c-97eed781fe5b
+  PvideoDashboardUserPoolClient:
+    Type: 'AWS::Cognito::UserPoolClient'
+    Properties:
+      ClientName: web_app_client
+      GenerateSecret: 'false'
+      RefreshTokenValidity: 30
+      UserPoolId: !Ref PvideoDashboardUserPool
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b78b66b4-23d1-47c3-b658-3c8ad6ed4961
+  ############################################################
+  ## Change-set
+  ############################################################
+  PvideoDashboardCognitoRole:
+    Type: 'AWS::IAM::Role'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 59a82b86-129f-4a35-8027-e3493afe6ba6
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Action: sts:AssumeRoleWithWebIdentity
+            Effect: Allow
+            Principal:
+              Federated: cognito-identity.amazonaws.com
+            Condition:
+              StringEquals:
+                cognito-identity.amazonaws.com:aud: !Ref PvideoDashboardIdentityPool
+              ForAnyValue:StringLike:
+                cognito-identity.amazonaws.com:amr: authenticated
+      Path: /
+      Policies:
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - "mobileanalytics:PutEvents"
+                  - "cognito-sync:*"
+                  - "cognito-identity:*"
+                Effect: Allow
+                Resource:
+                  -
+                    "*"
+            Version: 2012-10-17
+          PolicyName: !Join ['', [PvideoDashboardPolicy, !Ref Suffix]]
+      RoleName: !Join ['', [PvideoDashboardCognitoRole, !Ref Suffix]]
+  PvideoDashboardIdentityPoolRoleAttach:
+    Properties:
+      IdentityPoolId: !Ref PvideoDashboardIdentityPool
+      RoleMappings:
+        #"!Join [':', [!GetAtt PvideoDashboardUserPool.ProviderName, !Ref PvideoDashboardUserPoolClient]]":
+        "PoolProviderNameValueFromOther":
+          AmbiguousRoleResolution: AuthenticatedRole
+          Type: Token
+      Roles:
+        authenticated: !GetAtt PvideoDashboardCognitoRole.Arn
+    "Type": "AWS::Cognito::IdentityPoolRoleAttachment"
+Parameters:
+  Version:
+    Type: CommaDelimitedList
+    Description: >-
+      This parameter is a list of versions, used to name resources and adjust
+      pointers
+  S3CodeBucketName:
+    Type: String
+    Description: Name of the S3 bucket in which lambda functions source code is stored.
+  Suffix:
+    AllowedPattern: ^[A-Za-z_][A-Za-z\d_]*$
+    Type: String
+    Description: Used to be appended to resources names and avoid naming conflicts
+  DBTableCloudfrontSign:
+    Type: String
+    Description: >-
+      Name of the dynamo db table used to store cloudfront keypairs. It is
+      necessary to sign urls and access cloudfront-S3 contents.
+  RedshiftClusterId:
+    Type: String
+    Description: Identifier of the Redshift cluster used for Cloud Analytics
+  RedshiftSecurityGroup:
+    Type: String
+    Description: Identifier of the security Group associated to Redshift
+  RedshiftSubnetIds:
+    Type: CommaDelimitedList
+    Description: >-
+      Identifiers of the HA subnets configured for Cloud Analytics. No spaces
+      must be used between elements
+  CloudfrontDistributionCNAME:
+    AllowedPattern: >-
+      ^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])$
+    Type: String
+    Description: CNAME of the distribution used to deliver dashboard required data
+  CloudfrontRiaDistributionCNAME:
+    AllowedPattern: >-
+      ^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])$
+    Type: String
+    Description: CNAME of the distribution used to deliver dashboard site
+  CertificateACM:
+    Type: String
+    Description: >-
+      Certificate used for the CNAME specified in CloudfrontDistributionCNAME
+      parameter

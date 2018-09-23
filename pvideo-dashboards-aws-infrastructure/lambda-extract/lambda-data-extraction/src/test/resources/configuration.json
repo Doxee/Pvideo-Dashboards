@@ -1,0 +1,11 @@
+{
+  "clients": [
+    "Doxee"
+  ],
+  "loadSQLfromS3": true,
+  "configurationTableName": "pVideoDashboard-dev",
+  "clusterIdentifier": "ca-dev-frank-cloudanalyticsredshiftcluster-1ubh76w7obrgk",
+  "bucketName": "pvideodashboard"
+}
+
+

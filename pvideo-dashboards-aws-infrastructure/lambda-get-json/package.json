@@ -1,0 +1,21 @@
+{
+  "name": "dashboard_get_json",
+  "private": true,
+  "version": "1.0.0",
+  "library": "Pvideo Dashboard",
+  "description": "This function authenticate urls to access S3 tracks through Cloudfront.",
+  "author": {
+    "name": "Doxee S.p.A."
+  },
+  "license": "All Right Reserved",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.2.0"
+  },
+  "readme": "# This document scope is to show how to test the lambda function with the AWS console.\n- Access the AWS web interface through the federate link: https://federation-services.doxee.com/adfs/ls/IdpInitiatedSignon.aspx\n- Log in with LDAP credentials\n- Access the lambda function with the description: \"This function is used as a custom authorizer to check API GATEWAY requests and avail or denied access to sub-services.\"\n- Within \"Qualifiers\" select the version or alias to test\n- Click on Actions-> Configure test even\n- Insert event_samples/default.json, after have modified the value bucketName with the one specified during the deployment of the architecture as --bucket-name and also the value of distributionCNAME with the value specified with --cname and tableName with the value specified within --db-keys\n- Click Save\n- Click Test\n- Execution should succeed",
+  "readmeFilename": "README.MD",
+  "_id": "dashboard_get_json@1.0.0",
+  "scripts": {},
+  "_shasum": "128e40eed66dfde87b8e315bfe2b7e7a8959fc5d",
+  "_from": "AWS/Lambda/PvideoDashboardGetJson",
+  "_resolved": "file:AWS/Lambda/PvideoDashboardGetJson"
+}
